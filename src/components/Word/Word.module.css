@@ -1,5 +1,5 @@
 .Word {
 	background-color: hsl(350, 79%, 77%);
 
-	padding: 0.5rem;
+	width: max-content;
 }
