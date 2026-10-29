@@ -1,0 +1,7 @@
+.Letter {
+	border: 1px solid black;
+	height: 2rem;
+	width: 1rem;
+
+	display: inline-block;
+}
