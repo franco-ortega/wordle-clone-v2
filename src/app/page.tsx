@@ -17,10 +17,17 @@ export default function Home() {
 				<section>
 					Testing ground to display a grid of Word components (5x6) for the game
 					board:
-					<div className={styles.grid}>
-						{Array.from({ length: 6 }).map((_, rowIndex) => (
+					<div>
+						{/* {Array.from({ length: 6 }).map((_, rowIndex) => (
 							<Word key={rowIndex} word={Array(5).fill('')} />
-						))}
+						))} */}
+
+						<Word word={testWord} />
+						<Word word={['', '', '', '', '']} />
+						<Word word={['', '', '', '', '']} />
+						<Word word={['', '', '', '', '']} />
+						<Word word={['', '', '', '', '']} />
+						<Word word={['', '', '', '', '']} />
 					</div>
 				</section>
 			</main>
