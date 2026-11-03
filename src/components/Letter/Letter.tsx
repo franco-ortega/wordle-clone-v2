@@ -11,5 +11,5 @@ export default function Letter({ letter }: Props) {
 	// 4. present (letter is correct but in the wrong position)
 	// 5. absent (letter is not in the word)
 
-	return <span className={styles.Letter}>{letter}</span>;
+	return <p className={styles.Letter}>{letter}</p>;
 }
