@@ -1,5 +1,6 @@
 import Word from '@/components/Word/Word';
 import styles from './page.module.css';
+import Letter from '@/components/Letter/Letter';
 
 const testWord = ['H', 'E', 'L', 'L', 'O'];
 
@@ -10,6 +11,12 @@ export default function Home() {
 				<h1>Hello Wordle</h1>
 			</header>
 			<main className={styles.main}>
+				<section>
+					This is the testing ground for a single Letter component:
+					<div>
+						<Letter letter='H' />
+					</div>
+				</section>
 				<section>
 					This is the testing ground to display a single Word component:
 					<Word word={testWord} />
