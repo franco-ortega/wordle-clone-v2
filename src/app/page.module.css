@@ -18,6 +18,14 @@
 	/* background-color: var(--background); */
 }
 
+.page section {
+	background-color: hsl(0, 0%, 100%);
+
+	border: 1px solid hsl(0, 0%, 0%);
+	margin-bottom: 16px;
+	padding: 16px;
+}
+
 .main {
 	/* display: flex;
   flex: 1;
