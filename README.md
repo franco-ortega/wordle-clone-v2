@@ -9,10 +9,11 @@ This app will be a Wordle clone to practice the logic required to run the featur
 ### Sessions
 
 - Start session 10-28-26 - End session 10-28-26
-
 - Start session 10-31-26
 
 - Start session 11-02-26 - end session
+
+- Start session 11-09-26 - end session
 
 ### To Do
 
