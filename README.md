@@ -13,7 +13,7 @@ This app will be a Wordle clone to practice the logic required to run the featur
 
 - Start session 11-02-26 - end session
 
-- Start session 11-09-26 - end session
+- Start session 11-09-26 - end of session
 
 ### To Do
 
