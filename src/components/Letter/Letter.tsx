@@ -1,8 +1,9 @@
+import type { LetterState } from '../../utils/types';
 import styles from './Letter.module.css';
 
 type Props = {
 	letter?: string;
-	letterState?: 'EMPTY' | 'FILLED' | 'CORRECT' | 'PRESENT' | 'ABSENT';
+	letterState?: LetterState;
 };
 export default function Letter({ letter, letterState }: Props) {
 	// multiple states for letter:
