@@ -1,5 +1,6 @@
 .Word {
-	background-color: hsl(350, 79%, 77%);
-
 	width: max-content;
+
+	display: flex;
+	gap: 0.25rem;
 }
