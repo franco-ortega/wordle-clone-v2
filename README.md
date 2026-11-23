@@ -18,6 +18,8 @@ This app will be a Wordle clone to practice the logic required to run the featur
 
 - Start session 11-20-26
 
+- Start session 11-23-26
+
 ### To Do
 
 1. Determine the origin of padding or margin between Word components inside game grid
