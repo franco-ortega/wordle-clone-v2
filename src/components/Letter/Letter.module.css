@@ -18,4 +18,5 @@
 
 .filled {
 	border-color: hsl(0, 0%, 20%);
+	background-color: lightgreen;
 }

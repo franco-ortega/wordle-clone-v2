@@ -15,7 +15,7 @@ export default function Home() {
 				<section>
 					This is the testing ground for a single Letter component:
 					<div>
-						<Letter letter='Q' correctLetter={'Q'} />
+						<Letter letter={'Q'} correctLetter={'Q'} />
 					</div>
 				</section>
 				<section>
@@ -27,8 +27,8 @@ export default function Home() {
 					board:
 					<div>
 						<Word word={testWord} answer={testAnswer} />
-						<Word word={['', '', '', '', '']} answer={testAnswer} />
-						<Word word={['', '', '', '', '']} answer={testAnswer} />
+						<Word word={['S', 'W', '', '', '']} answer={'SWORD'} />
+						<Word word={['S', 'T', '', '', '']} answer={'SWIFT'} />
 						<Word word={['', '', '', '', '']} answer={testAnswer} />
 						<Word word={['', '', '', '', '']} answer={testAnswer} />
 						<Word word={['', '', '', '', '']} answer={testAnswer} />
