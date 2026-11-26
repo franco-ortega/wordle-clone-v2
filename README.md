@@ -19,6 +19,7 @@ This app will be a Wordle clone to practice the logic required to run the featur
 - Start session 11-20-26
 
 - Start session 11-23-26
+- Start session 11-25-26
 
 ### To Do
 
