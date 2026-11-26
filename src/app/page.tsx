@@ -3,7 +3,12 @@ import styles from './page.module.css';
 import Letter from '@/components/Letter/Letter';
 
 const testWord = ['H', 'E', 'L', 'L', 'O'];
-const testAnswer = 'HELLO';
+const testAnswer = 'SWIFT';
+
+// Word is submitted
+// Word is current
+// Word is pending
+// compare this to number of guesses
 
 export default function Home() {
 	return (
@@ -16,6 +21,7 @@ export default function Home() {
 					This is the testing ground for a single Letter component:
 					<div>
 						<Letter letter={'Q'} correctLetter={'Q'} />
+						<Letter letter={'Q'} correctLetter={'X'} />
 					</div>
 				</section>
 				<section>
@@ -27,8 +33,8 @@ export default function Home() {
 					board:
 					<div>
 						<Word word={testWord} answer={testAnswer} />
-						<Word word={['S', 'W', '', '', '']} answer={'SWORD'} />
-						<Word word={['S', 'T', '', '', '']} answer={'SWIFT'} />
+						<Word word={['S', 'W', 'O', 'R', 'D']} answer={testAnswer} />
+						<Word word={['S', 'T', '', '', '']} answer={testAnswer} />
 						<Word word={['', '', '', '', '']} answer={testAnswer} />
 						<Word word={['', '', '', '', '']} answer={testAnswer} />
 						<Word word={['', '', '', '', '']} answer={testAnswer} />

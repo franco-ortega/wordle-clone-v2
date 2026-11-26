@@ -16,6 +16,11 @@
 	line-height: 1.2;
 }
 
+.current {
+	border-color: hsl(0, 0%, 20%);
+	color: hsl(195, 53%, 79%);
+}
+
 .filled {
 	border-color: hsl(0, 0%, 20%);
 	background-color: hsl(120, 73%, 75%);

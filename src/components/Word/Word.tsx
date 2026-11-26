@@ -15,6 +15,8 @@ export default function Word({ word, answer }: Props) {
 	// ... 2a. word hasn't been reached yet (letters are empty)
 	// ... 2b. previous word (has been submitted - letters are filled and submitted)
 
+	// needs to check if current word is active word (letters are being typed) or if it is a previous word (letters have been submitted) or if it is a future word (letters are empty) - a counter could keep track of the current word index and compare it to the index of the word being rendered
+
 	return (
 		<div className={styles.Word}>
 			{word.map((letter, index) => (
