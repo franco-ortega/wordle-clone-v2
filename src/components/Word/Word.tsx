@@ -3,9 +3,10 @@ import styles from './Word.module.css';
 
 type Props = {
 	word: string[];
+	answer: string;
 };
 
-export default function Word({ word }: Props) {
+export default function Word({ word, answer }: Props) {
 	// multiple states for word:
 	// 1. current word (letters are being typed)
 	// ... 1a. filled (letters are present - not submitted yet)
@@ -17,7 +18,7 @@ export default function Word({ word }: Props) {
 	return (
 		<div className={styles.Word}>
 			{word.map((letter, index) => (
-				<Letter key={index} letter={letter} />
+				<Letter key={index} letter={letter} correctLetter={answer[index]} />
 			))}
 		</div>
 	);

@@ -3,6 +3,7 @@ import styles from './page.module.css';
 import Letter from '@/components/Letter/Letter';
 
 const testWord = ['H', 'E', 'L', 'L', 'O'];
+const testAnswer = 'HELLO';
 
 export default function Home() {
 	return (
@@ -14,23 +15,23 @@ export default function Home() {
 				<section>
 					This is the testing ground for a single Letter component:
 					<div>
-						<Letter letter='H' />
+						<Letter letter='Q' correctLetter={'Q'} />
 					</div>
 				</section>
 				<section>
 					This is the testing ground to display a single Word component:
-					<Word word={testWord} />
+					<Word word={testWord} answer={testAnswer} />
 				</section>
 				<section>
 					Testing ground to display a grid of Word components (5x6) for the game
 					board:
 					<div>
-						<Word word={testWord} />
-						<Word word={['', '', '', '', '']} />
-						<Word word={['', '', '', '', '']} />
-						<Word word={['', '', '', '', '']} />
-						<Word word={['', '', '', '', '']} />
-						<Word word={['', '', '', '', '']} />
+						<Word word={testWord} answer={testAnswer} />
+						<Word word={['', '', '', '', '']} answer={testAnswer} />
+						<Word word={['', '', '', '', '']} answer={testAnswer} />
+						<Word word={['', '', '', '', '']} answer={testAnswer} />
+						<Word word={['', '', '', '', '']} answer={testAnswer} />
+						<Word word={['', '', '', '', '']} answer={testAnswer} />
 					</div>
 				</section>
 			</main>

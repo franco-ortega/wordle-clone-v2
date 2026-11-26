@@ -4,8 +4,9 @@ import styles from './Letter.module.css';
 type Props = {
 	letter?: string;
 	letterState?: LetterState;
+	correctLetter?: string;
 };
-export default function Letter({ letter, letterState }: Props) {
+export default function Letter({ letter, letterState, correctLetter }: Props) {
 	// multiple states for letter:
 	// 1. EMPTY (no letter)
 	// 2. FILLED (letter is present)
@@ -16,6 +17,8 @@ export default function Letter({ letter, letterState }: Props) {
 	// -- light green yellow
 	// 5. ABSENT (letter is not in the word)
 	// -- mid green gray
+
+	console.log({ correctLetter, letter, letterState });
 
 	return (
 		<p
