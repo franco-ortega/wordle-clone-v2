@@ -25,10 +25,6 @@ export default function Home() {
 					Testing ground to display a grid of Word components (5x6) for the game
 					board:
 					<div>
-						{/* {Array.from({ length: 6 }).map((_, rowIndex) => (
-							<Word key={rowIndex} word={Array(5).fill('')} />
-						))} */}
-
 						<Word word={testWord} />
 						<Word word={['', '', '', '', '']} />
 						<Word word={['', '', '', '', '']} />
