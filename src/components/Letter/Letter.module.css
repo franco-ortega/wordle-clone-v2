@@ -18,5 +18,15 @@
 
 .filled {
 	border-color: hsl(0, 0%, 20%);
-	background-color: lightgreen;
+	background-color: hsl(120, 73%, 75%);
+}
+
+.correct {
+	border-color: hsl(0, 0%, 20%);
+	background-color: hsl(60, 100%, 50%);
+}
+
+.incorrect {
+	border-color: hsl(0, 0%, 20%);
+	background-color: hsl(0, 100%, 75%);
 }

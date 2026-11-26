@@ -21,7 +21,9 @@ export default function Letter({ letter, letterState, correctLetter }: Props) {
 	console.log({ correctLetter, letter, letterState });
 
 	return (
-		<p className={`${styles.Letter} ${letter ? styles.filled : ''}`}>
+		<p
+			className={`${styles.Letter} ${letter ? styles.filled : ''} ${letter === correctLetter ? styles.correct : ''} ${letter && letter !== correctLetter ? styles.incorrect : ''}`}
+		>
 			{letter}
 		</p>
 	);
